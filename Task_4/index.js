@@ -45,6 +45,3 @@ function checkDirection (row, column, rowDelta, columnDelta, direction) {
 
 
 
-//console.log(projector(4, 6, actors))
-
-

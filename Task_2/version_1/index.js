@@ -16,7 +16,7 @@ function searchDuplicate(arr) {
     slow = arr[slow]
     fast = arr[arr[fast]]
   }
-  console.log(slow, fast)
+
   let pointer = arr[0]
   let index = 0
   // traverse the array until the two slow pointers meet, indicating duplicate value
@@ -30,5 +30,4 @@ function searchDuplicate(arr) {
     value: slow
   }
 }
-const array = [6, 4, 3, 5, 4, 1, 2]
-console.log(searchDuplicate(array))
+

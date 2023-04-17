@@ -25,7 +25,7 @@ function findSmallestGreater(prevRecord) {
         smallestCombo = combo;
       }
     }
-  } 
+  }
   return {
     weight: (smallestSum * 2 + 20).toFixed(2),
     combination: formateResult(smallestCombo),

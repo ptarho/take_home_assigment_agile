@@ -24,4 +24,3 @@ function searchDuplicate(arr) {
   }
 }
 
-console.log(searchDuplicate([1, 2, 3, 5, 4, 5]))
